@@ -63,5 +63,5 @@ def deleteMember(request):
         room_name = data['room_name'],
         
     )
-    member.delete
+    member.delete()
     return JsonResponse('Member was deleted', safe=False)
