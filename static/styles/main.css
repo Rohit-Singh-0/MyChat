@@ -15,9 +15,10 @@ body {
   width: 100vw;
 }
 
-video {
+#bg-gif{
   position: fixed;
   width: 100vw;
+  height:100vh
 }
 
 /* -------------LOBBY STYLING--------------- */
