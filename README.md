@@ -34,21 +34,21 @@ git clone https://github.com/Rohit-Singh-0/MyChat.git
 cd MyChat
 ```
 
-3. Install the required dependencies:
+2. Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Apply the database migrations:
+3. Apply the database migrations:
 
 ```bash
 python manage.py migrate
 ```
 
-5. Obtain your Agora SDK credentials by signing up at [Agora.io](https://www.agora.io) and replace the placeholders in the `settings.py` file with your Agora App ID.
+4. Obtain your Agora SDK credentials by signing up at [Agora.io](https://www.agora.io) and replace the placeholders in the `settings.py` file with your Agora App ID.
 
-6. Run the development server:
+5. Run the development server:
 
 ```bash
 python manage.py runserver
