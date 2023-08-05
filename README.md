@@ -31,7 +31,7 @@ To run MyChat locally on your machine, follow these steps:
 
 ```bash
 git clone https://github.com/Rohit-Singh-0/MyChat.git
-cd mychat
+cd MyChat
 ```
 
 3. Install the required dependencies:
