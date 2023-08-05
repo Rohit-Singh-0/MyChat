@@ -18,11 +18,9 @@ MyChat is a full-featured web application that allows users to engage in video c
 
 ## Features
 
-- User registration and authentication system using Django's built-in features.
+- User registration using Django's built-in features.
 - Real-time audio and video communication with Agora SDK.
 - Group calling support, enabling multiple users to participate in the same call.
-- Chat functionality alongside video communication for a complete interactive experience.
-- Customizable user profiles and avatars.
 - Responsive and user-friendly interface for seamless usage on various devices.
 
 ## Installation
