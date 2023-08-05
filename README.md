@@ -62,7 +62,4 @@ The application will now be accessible at `http://localhost:8000/`.
 
 Once MyChat is up and running, users can register or log in to their accounts. After logging in, they can create or join rooms for video communication. The Agora SDK handles the real-time communication aspects, allowing users to interact seamlessly through video calls.
 
-In addition to video calling, users can also send messages using the chat functionality provided by the application.
-
-
 Thank you for using MyChat! If you have any questions or encounter any issues, please feel free to open an issue on this repository. Happy video calling!
