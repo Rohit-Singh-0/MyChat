@@ -9,8 +9,8 @@ from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 def getToken(request):
-    appId ='3ad6619c3e4142018401bba634294b39'
-    appCertificate ='586f3579adc746898ccc198dd8de0bf5'
+    appId ='YOUR APP ID'
+    appCertificate ='YOUR APP CERTIFICATE'
     channelName = request.GET.get('channel')
     uid = random.randint(1,230)
     expirationTimeInSeconds = 3600*24
