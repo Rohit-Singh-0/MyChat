@@ -1,6 +1,6 @@
 # MyChat - Video Calling Web App
 
-![MyChat Login Page]([logo.png](https://github.com/Rohit-Singh-0/MyChat/blob/main/static/Web%20capture_5-8-2023_17197_127.0.0.1.jpeg))
+![MyChat Login Page](https://github.com/Rohit-Singh-0/MyChat/blob/main/static/Web%20capture_5-8-2023_17197_127.0.0.1.jpeg)
 
 Welcome to MyChat - a video calling web app built with Django and integrated with the Agora SDK. MyChat enables real-time audio and video communication between users, providing an interactive and engaging experience for your web application's users.
 
@@ -32,15 +32,8 @@ To run MyChat locally on your machine, follow these steps:
 1. Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/mychat.git
+git clone https://github.com/Rohit-Singh-0/MyChat.git
 cd mychat
-```
-
-2. Set up a virtual environment (optional but recommended):
-
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install the required dependencies:
