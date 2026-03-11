@@ -1,6 +1,6 @@
 // const cli = require("npm/lib/cli");
 
-const APP_ID = "3ad6619c3e4142018401bba634294b39";
+const APP_ID = sessionStorage.getItem('APP_ID');
 const CHANNEL = sessionStorage.getItem('room');
 const TOKEN =sessionStorage.getItem('token');
 let UID = Number(sessionStorage.getItem('UID'));
