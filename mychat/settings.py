@@ -33,8 +33,9 @@ DEBUG = os.environ.get('DEBUG', 'False').lower() in ('true', '1', 't')
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(',')
 
-
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://*.onrender.com',
+]
 # Application definition
 
 INSTALLED_APPS = [
